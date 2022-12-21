@@ -1,0 +1,49 @@
+
+.recent-section {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("https://rog.asus.com/dist/img/rog_bg_pattern.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+    .container-recent {
+    width: 90%;
+    }
+
+    .card-text{
+        display: flex;
+        justify-content: center;
+        
+        h2{
+            margin-top: 50px;
+            margin-bottom: 30px;
+            color: white;
+            font-size: 30px;
+        }
+    }
+    .card-3 {
+        display: flex;
+        gap: 1rem;
+
+        div {
+            display: flex;
+            overflow: hidden;
+            width: 33%;
+        }
+    }
+    .card-2{
+        margin-top: 20px    ;
+        display: flex;
+        gap: 30px;
+            
+            img{
+                width: 100%;
+            }
+        }
+    }
+

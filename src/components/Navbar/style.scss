@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+background-color: cyan;
+    position: sticky;
+    display: flex;
+    justify-content: space-around;
+
+    .rog{
+        color: red;
+max-width: 200px;
+height: 60px;
+    }
+ul{
+           
+    display: flex;
+   
+    li{ 
+        display: flex;
+        align-items: center;
+        margin: 10px;
+        list-style-type: none;
+
+    }
+}
+.icons{
+    display: flex;
+    align-items: center;
+
+    .asus{
+        margin: 10px;
+        max-width: 70px;
+        height: 16px;
+    }
+
+    .lupa{
+        margin: 10px;
+        max-width: 26px;
+        height: 26px;
+    }
+
+    .man{
+        margin: 10px;
+        max-width: 26px;
+        height: 26px;
+    }
+}
+}
